@@ -11,3 +11,13 @@ func TestInput1(t *testing.T) {
 		t.Errorf("Expected %s but got %s", expected, actual)
 	}
 }
+
+func TestInput2(t *testing.T) {
+	given := 2
+	expected := "2"
+
+	actual := fizzBuzz(given)
+	if actual != expected {
+		t.Errorf("Expected %s but got %s", expected, actual)
+	}
+}
