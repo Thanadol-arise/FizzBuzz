@@ -56,4 +56,8 @@ describe('FizzBuzz', () => {
     test('input 14', () => {
         expect(fizzBuzzCalculate(14)).toBe('14');
     });
+
+    test('input 15', () => {
+        expect(fizzBuzzCalculate(15)).toBe('FizzBuzz');
+    });
 });

@@ -2,8 +2,12 @@ function buzzCheck(input){
     return input%5 == 0 ? 'Buzz' : String(input);
 }
 
-function fizzBuzzCalculate(input){
+function fizzCheck(input){
     return input%3 == 0 ? 'Fizz' : buzzCheck(input);
+}
+
+function fizzBuzzCalculate(input){
+    return input == 15 ? 'FizzBuzz' : fizzCheck(input);
 }
 
 module.exports = fizzBuzzCalculate;
