@@ -3,7 +3,7 @@ function buzzCheck(input) {
 }
 
 function fizzBuzzCalculate(input) {
-    return input == 3 ? 'Fizz' : buzzCheck(input);
+    return input%3 == 0 ? 'Fizz' : buzzCheck(input);
 }
 
 module.exports = fizzBuzzCalculate
