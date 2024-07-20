@@ -1,9 +1,5 @@
-function fizzBuzzTwo(input) {
-  return input == 2 ? '2' : '1';
-}
-
 function fizzBuzzCalculate(input) {
-  return input == 3 ? 'Fizz' : fizzBuzzTwo(input);
+  return input == 3 ? 'Fizz' : String(input);
 }
 
 module.exports = fizzBuzzCalculate
