@@ -1,6 +1,6 @@
 class FizzBuzz {
     calculate(input) {
-        if (input === 15) {
+        if (input%15 === 0) {
             return 'FizzBuzz';
         }
         if (input%3 === 0) {
