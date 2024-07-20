@@ -81,3 +81,13 @@ func TestInput8(t *testing.T) {
 		t.Errorf("Expected %s but got %s", expected, actual)
 	}
 }
+
+func TestInput9(t *testing.T) {
+	given := 9
+	expected := "Fizz"
+
+	actual := fizzBuzz(given)
+	if actual != expected {
+		t.Errorf("Expected %s but got %s", expected, actual)
+	}
+}
