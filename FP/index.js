@@ -1,5 +1,5 @@
 function buzzCheck(input) {
-  return input == 5 ? 'Buzz' : String(input);
+  return input%5 == 0 ? 'Buzz' : String(input);
 }
 
 function fizzBuzzCalculate(input) {
