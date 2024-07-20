@@ -9,5 +9,10 @@ func fizzBuzz(input int) string {
 		false: strconv.Itoa(input),
 	}[input == 3]
 
+	result = map[bool]string{
+		true:  "Buzz",
+		false: result,
+	}[input == 5]
+
 	return result
 }
