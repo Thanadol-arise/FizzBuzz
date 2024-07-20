@@ -7,7 +7,7 @@ function fizzCheck(input) {
 }
 
 function fizzBuzzCalculate(input) {
-    return input == 15 ? 'FizzBuzz' : fizzCheck(input);
+    return input%15 == 0 ? 'FizzBuzz' : fizzCheck(input);
 }
 
 module.exports = fizzBuzzCalculate
