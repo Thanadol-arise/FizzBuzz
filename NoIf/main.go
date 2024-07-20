@@ -11,7 +11,7 @@ func fizzBuzz(input int) string {
 	result = map[bool]string{
 		true:  "Buzz",
 		false: result,
-	}[input == 5]
+	}[input%5 == 0]
 
 	return result
 }
